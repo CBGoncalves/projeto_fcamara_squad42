@@ -4,13 +4,13 @@
 USE Projeto_FCamara
 GO
 
-INSERT INTO TipoUsuario (TituloTipoUsuario)
-VALUES ('Administrador'),
+INSERT INTO TipoUsuario (TituloTipoUsuario) -- comando para inserir dados ns tabelas de acordo com os atributos
+VALUES ('Administrador'), -- comando para definir os valores a serem adicionados
 	   ('Consultor');
 GO
 
 INSERT INTO Usuario (NomeUsuario,Email,Senha,IdTipoUsuario)
-VALUES ('Carlos Eduardo','carlos@gmail.com','carlos1243',2),
+VALUES ('Carlos Eduardo','carlos@gmail.com','carlos1243',2), -- chaves estrangeiras não precisam de aspas simples ''
 	   ('Anderson Nuccitelli','anderson@gmail.com','anderson2243',2),
 	   ('Júlia Caroline Geib','julia@gmail.com','julia3143',1),
 	   ('Esther Wyse de Lucena','esther@gmail.com','esther4243',2);
