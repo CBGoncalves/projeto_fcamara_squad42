@@ -1,7 +1,7 @@
 -- DML (Data Manipulation Language) 
 -- Arquivo para manipulação e adição de dados
 
-USE Projeto_FCamara
+USE AgendaFC
 GO
 
 INSERT INTO TipoUsuario (TituloTipoUsuario) -- comando para inserir dados ns tabelas de acordo com os atributos

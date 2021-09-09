@@ -2,12 +2,12 @@
 --Arquivo para criação e interação com os objetos do banco
 
 -- Cria o banco de dados com o nome Projeto_FCamara
-CREATE DATABASE Projeto_FCamara
+CREATE DATABASE AgendaFC
 -- Comando GO responsavel por informar até onde deve ser processado com uma batch
 GO
 
 -- Define o banco de dados que será utilizado
-USE Projeto_FCamara
+USE AgendaFC
 GO
 
 -- Criação de tabelas

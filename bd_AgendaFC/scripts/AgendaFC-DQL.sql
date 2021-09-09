@@ -2,7 +2,7 @@
 --Arquivo para consulta das tabelas e dados do banco
 
 -- Define o banco de dados que será utilizado
-USE Projeto_FCamara
+USE AgendaFC
 GO
 
 --LISTAR TODOS OS TIPOS DE USUARIOS CADASTRADOS
