@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  max-height: 1200px;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#070b11, #121b2d);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+p,
+span,
+h1,
+button,
+input {
+  font-family: "Chakra Petch", sans-serif;
+  color: #e0e0ef;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
