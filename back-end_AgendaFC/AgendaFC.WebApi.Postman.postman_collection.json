@@ -250,6 +250,107 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Escritorio",
+			"item": [
+				{
+					"name": "Escritorio.Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/Escritorio",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Escritorio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Escritorio.Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tituloEscritorio\": \"Rio de Janeiro\",\r\n    \"enderecoEscritorio\": \"Rua Marcelo Operante\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/Escritorio",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Escritorio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Escritorio.Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tituloEscritorio\": \"Minas Gerais\",\r\n    \"enderecoEscritorio\": \"Rua Soares de Ribais\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/Escritorio/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Escritorio",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Escritorio.Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/Escritorio/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Escritorio",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
