@@ -351,6 +351,107 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "TipoAgendamento",
+			"item": [
+				{
+					"name": "TipoAgendamento.Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/TipoAgendamento",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"TipoAgendamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TipoAgendamento.Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tituloTipoAgendamento\": \"Sala para equipe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/TipoAgendamento",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"TipoAgendamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TipoAgendamento.Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tituloTipoAgendamento\": \"Sala para apresentações\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/TipoAgendamento/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"TipoAgendamento",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TipoAgendamento.Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/TipoAgendamento/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"TipoAgendamento",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }

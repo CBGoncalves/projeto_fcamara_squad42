@@ -12,7 +12,7 @@ namespace WebApplication1.Repositories
     {
 
         AgendaFCContext ctx = new AgendaFCContext();
-
+        
         public void AtualizarEscritorioPorId(int id, Escritorio escritorioAtualizado)
         {
             Escritorio escritorioBuscado = ctx.Escritorios.Find(id);
