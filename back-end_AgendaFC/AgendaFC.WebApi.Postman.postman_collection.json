@@ -452,6 +452,127 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Agendamento",
+			"item": [
+				{
+					"name": "Agendamento.Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/Agendamento",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Agendamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agendamento.GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/Agendamento/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Agendamento",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agendamento.Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dataAgendamento\": \"2021-10-15\",\r\n    \"idUsuario\": 1,\r\n    \"idTipoAgendamento\": 1,\r\n    \"idEscritorio\": 2,\r\n    \"idTurno\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/Agendamento",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Agendamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agendamento.Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dataAgendamento\": \"2021-10-16\",\r\n    \"idUsuario\": 1,\r\n    \"idTipoAgendamento\": 2,\r\n    \"idEscritorio\": 2,\r\n    \"idTurno\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/Agendamento/5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Agendamento",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agendamento.Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/Agendamento/5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Agendamento",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
