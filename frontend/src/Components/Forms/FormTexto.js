@@ -1,4 +1,5 @@
 import Cadeira from '../../imagens/Cadeira.png';
+import './style.css';
 
 const FormTexto = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../Navbar/Navbar';
-import './MeusAgendamentos.css'; 
+import Navbar from '../../Components/Navbar/Navbar'
+import './style.css'; 
 
 const Agendamento = () => {
   return (  

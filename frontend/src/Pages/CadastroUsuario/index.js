@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Form.css';
-import FormTexto from './FormTexto'
+import './style.css';
+import FormTexto from '../../Components/Forms/FormTexto'
 
-const FormCadastro = () => {
+const CadastroUsuario = () => {
   return (
     <div className="container">
       <FormTexto />
@@ -36,4 +36,4 @@ const FormCadastro = () => {
   );
 };
 
-export default FormCadastro;
+export default CadastroUsuario;

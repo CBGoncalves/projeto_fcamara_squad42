@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Form.css';
-import FormTexto from './FormTexto'
+import './style.css';
+import FormTexto from '../../Components/Forms/FormTexto'
 
-const Form = () => {
+const Login = () => {
   return (    
     <div className="container formContainer">
       <FormTexto />
@@ -22,11 +22,11 @@ const Form = () => {
         <div>
           <button><Link to="/Agendar">▶ ENTRAR</Link></button>
         </div>
-          <span><Link to="/FormCadastro">Criar conta</Link></span>
+          <span><Link to="/CadastroUsuario">Criar conta</Link></span>
         </form> 
       </div>
       </div>
   );
 };
 
-export default Form;
+export default Login;

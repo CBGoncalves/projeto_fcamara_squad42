@@ -1,0 +1,124 @@
+.formContainer {
+    padding-top: 150px;
+  }
+  
+  .form {
+    margin-left: 127px;
+    background-image: url(../../imagens/Gota.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 689px;
+    height: 689px;
+  }
+  
+  .form h1 {
+    font-weight: 500;
+    font-size: 30pt;
+    color: #2a2962;
+    margin: 80px 0 0 300px;
+  }
+  
+  .form form,
+  .FormCadastro form {
+    margin: 80px 0 0 150px;
+  }
+  
+  .form form span {
+    color: #36357e;
+    font-size: 18px;
+    margin-left: 270px;
+  }
+  
+  .form form span:last-child {
+    color: #36357e;
+    font-size: 25px;
+    margin-left: 140px;
+    cursor: pointer;
+  }
+  
+  .form input {
+    border: none;
+    border-bottom: 0.13rem solid #36357e;
+    background-color: #e0e0ef;
+    padding-top: 40px;
+    width: 400px;
+    color: #707070;
+    font-size: 18pt;
+  }
+  
+  input:focus,
+  select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+  
+  input::placeholder {
+    font-size: 18pt;
+  }
+  
+  .form button {
+    background-color: #fe4400;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0 3px 6px #707070;
+    height: 53px;
+    width: 409px;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 428px) {
+    .formContainer {
+      padding-top: 110px;
+    }
+  
+    .formContainer {
+      flex-direction: column;
+    }
+  
+    .form {
+      margin-left: 17px;
+      width: 396px;
+      height: 396px;
+      position: absolute;
+    }
+  
+    .form form,
+    .FormCadastro form {
+      margin: 10px 0 0 100px;
+    }
+  
+    .form h1 {
+      font-size: 16pt;
+      margin: 80px 0 0 180px;
+    }
+  
+    .form form span {
+      font-size: 14px;
+      margin-left: 0;
+    }
+  
+    .form form span:last-child {
+      font-size: 20px;
+      margin-left: 60px;
+    }
+  
+    .form input {
+      padding-top: 34px;
+      width: 222px;
+      color: #707070;
+      font-size: 14pt;
+    }
+  
+    .form button {
+      box-shadow: 0 2px 3px #707070;
+      height: 29px;
+      width: 222px;
+      font-size: 20px;
+      margin-top: 34px;
+      margin-bottom: 5px;
+    }
+  }
