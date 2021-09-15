@@ -17,5 +17,7 @@ namespace WebApplication1.Interfaces
         Usuario BuscarUsuarioPorId(int id);
 
         void AtualizarUsuarioPorId(int id, Usuario usuarioAtualizado);
+
+        Usuario Login(string email, string senha);
     }
 }

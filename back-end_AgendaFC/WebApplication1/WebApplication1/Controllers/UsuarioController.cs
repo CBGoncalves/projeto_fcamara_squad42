@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -23,12 +24,13 @@ namespace WebApplication1.Controllers
             _usuarioRepository = new UsuarioRepository();
         }
 
-
+        [Authorize(Roles = "1")]
         [HttpGet]
         public IActionResult Get()
         {
             return Ok(_usuarioRepository.ListarUsuarios());
         }
+
 
         [HttpPost]
         public IActionResult Post(Usuario novoUsuario)
@@ -38,11 +40,13 @@ namespace WebApplication1.Controllers
             return StatusCode(201);
         }
 
+        [Authorize(Roles = "1")]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
             return Ok(_usuarioRepository.BuscarUsuarioPorId(id));
         }
+
 
         [HttpPut("{id}")]
         public IActionResult Put(int id, Usuario usuarioAtualizado)
@@ -52,6 +56,7 @@ namespace WebApplication1.Controllers
             return StatusCode(204);
         }
 
+        [Authorize(Roles = "1")]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

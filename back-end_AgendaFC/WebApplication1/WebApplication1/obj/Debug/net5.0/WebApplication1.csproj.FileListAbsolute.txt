@@ -120,3 +120,6 @@ C:\Users\Carlos Eduardo\Desktop\projeto_fcamara_squad42\back-end_AgendaFC\WebApp
 C:\Users\Carlos Eduardo\Desktop\projeto_fcamara_squad42\back-end_AgendaFC\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.RazorTargetAssemblyInfo.cache
 C:\Users\Carlos Eduardo\Desktop\projeto_fcamara_squad42\back-end_AgendaFC\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.CopyComplete
 C:\Users\Carlos Eduardo\Desktop\projeto_fcamara_squad42\back-end_AgendaFC\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Carlos Eduardo\Desktop\projeto_fcamara_squad42\back-end_AgendaFC\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Carlos Eduardo\Desktop\projeto_fcamara_squad42\back-end_AgendaFC\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Carlos Eduardo\Desktop\projeto_fcamara_squad42\back-end_AgendaFC\WebApplication1\WebApplication1\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

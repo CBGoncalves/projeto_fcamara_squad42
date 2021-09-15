@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -23,13 +24,13 @@ namespace WebApplication1.Controllers
             _escritorioRepository = new EscritorioRepository();
         }
 
-
         [HttpGet]
         public IActionResult Get()
         {
             return Ok(_escritorioRepository.ListarEscritorios());
         }
 
+        [Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Post(Escritorio novoEscritorio)
         {
@@ -38,6 +39,7 @@ namespace WebApplication1.Controllers
             return StatusCode(201);
         }
 
+        [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult Put(int id, Escritorio escritorioAtualizado)
         {
@@ -46,6 +48,7 @@ namespace WebApplication1.Controllers
             return StatusCode(204);
         }
 
+        [Authorize(Roles = "1")]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

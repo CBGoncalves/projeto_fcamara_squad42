@@ -23,7 +23,7 @@ namespace WebApplication1.Controllers
             _tipoUsuarioRepository = new TipoUsuarioRepository();
         }
 
-
+        [Authorize(Roles = "1")]
         [HttpGet]
         public IActionResult Get()
         {

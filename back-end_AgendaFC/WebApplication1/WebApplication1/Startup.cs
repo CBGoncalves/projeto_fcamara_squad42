@@ -28,10 +28,12 @@ namespace WebApplication1
         {
 
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplication1", Version = "v1" });
             });
+                
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +49,8 @@ namespace WebApplication1
           
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
