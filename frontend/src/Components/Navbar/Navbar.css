@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  background-color: #121b2d;
+}
+
+.navbar span,
+img {
+  padding-right: 40px;
+}
+
+.logoNavbar {
+  width: 115px;
+  height: 115px;
+  padding-right: 550px;
+  padding-left: 400px;
+}
+
+.logout,
+.perfil {
+  width: 40px;
+  height: 33px;
+}

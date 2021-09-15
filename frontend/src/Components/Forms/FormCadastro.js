@@ -29,7 +29,7 @@ const FormCadastro = () => {
             <input type="password" name="password" id="password" placeholder="Confirmar Senha" required/>         
           </div>
         <div>
-          <button>ENTRAR</button>
+          <button>▶ ENTRAR</button>
         </div>
         <span><Link to="/">Já tenho conta</Link></span>
         </form> 

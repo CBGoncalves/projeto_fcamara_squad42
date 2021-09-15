@@ -21,9 +21,9 @@ const Form = () => {
           </div>
           <span>Esqueci a senha</span>
         <div>
-          <button>ENTRAR</button>
+          <button><Link to="/Agendar">▶ ENTRAR</Link></button>
         </div>
-        <span><Link to="/FormCadastro">Criar conta</Link></span>
+          <span><Link to="/FormCadastro">Criar conta</Link></span>
         </form> 
       </div>
       </div>
