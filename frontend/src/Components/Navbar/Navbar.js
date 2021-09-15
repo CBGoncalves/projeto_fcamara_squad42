@@ -7,10 +7,10 @@ const Navbar = () => {
   return (    
     <div className="navbar">
       <img src={Logo} className="logoNavbar" alt="Logo"/>
-      <span><Link to="/Agendar">AGENDAR</Link></span>
-      <span><Link to="/MeusAgendamentos">MEUS AGENDAMENTOS</Link></span>      
-      <span>PERFIL</span>
-      <span>LOGOUT</span>
+      <span className="agendarMob"><Link to="/Agendar">AGENDAR</Link></span>
+      <span className="meusAgendamentosMob"><Link to="/MeusAgendamentos">MEUS AGENDAMENTOS</Link></span>      
+      <span className="perfilMob">PERFIL</span>
+      <span className="sairMob">SAIR</span>
     </div>
   );
 };

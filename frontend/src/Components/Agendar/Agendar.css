@@ -44,3 +44,43 @@
   font-size: 35px;
   margin: 100px 0 0 300px;
 }
+
+@media (max-width: 428px) {
+  .agendar h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 16pt;
+  }
+
+  .agendar h2 {
+    font-size: 18pt;
+    font-weight: 100;
+  }
+
+  .agendarForm {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .agendarForm > div {
+    margin: 40px 0 0 0;
+    align-self: center;
+  }
+
+  .agendarForm select,
+  .agendarForm option,
+  .agendarForm input {
+    width: 222px;
+    height: 35px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .agendar button {
+    height: 29px;
+    width: 190px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 60px auto auto 15px;
+  }
+}

@@ -2,15 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Form.css';
 import FormTexto from './FormTexto'
-import Logo from '../../imagens/Logo.png';
-
 
 const FormCadastro = () => {
   return (
     <div className="container">
       <FormTexto />
       <div className="form FormCadastro">      
-        <img src={Logo} className="logo" alt="Logo"/>
+        <h1>Cadastre-se</h1>
         <form>
         <div>     
             <label for="text"></label>

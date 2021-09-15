@@ -1,4 +1,4 @@
-.altura {
+.formContainer {
   padding-top: 150px;
 }
 
@@ -11,18 +11,16 @@
   height: 689px;
 }
 
-.form .logo {
-  max-width: 194px;
-  max-height: 194px;
-  margin-left: 390px;
+.form h1 {
+  font-weight: 500;
+  font-size: 30pt;
+  color: #2a2962;
+  margin: 80px 0 0 300px;
 }
 
-.form form {
-  margin: 30px 0 0 179px;
-}
-
+.form form,
 .FormCadastro form {
-  margin: -40px 0 0 140px;
+  margin: 80px 0 0 150px;
 }
 
 .form form span {
@@ -83,22 +81,77 @@ input::placeholder {
   color: #fe4400;
 }
 
-.logotipo-div {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  margin-top: 30px;
-  margin-bottom: 260px;
-}
-
-.logotipo {
-  max-width: 179px;
-  max-height: 39px;
-  margin-bottom: 150px;
-}
-
 .cadeira {
-  max-width: 314px;
-  max-height: 314px;
+  width: 314px;
+  height: 314px;
   padding-left: 40px;
+}
+
+@media (max-width: 428px) {
+  .formContainer {
+    padding-top: 110px;
+  }
+
+  .formContainer {
+    flex-direction: column;
+  }
+
+  .form-texto p {
+    font-size: 20px;
+    width: 383px;
+    height: 76px;
+    position: absolute;
+    z-index: 100;
+    margin-top: 73px;
+  }
+
+  .cadeira {
+    width: 600px;
+    height: 785px;
+    position: relative;
+    margin-left: -300px;
+  }
+
+  .form {
+    margin-left: 17px;
+    width: 396px;
+    height: 396px;
+    position: absolute;
+  }
+
+  .form form,
+  .FormCadastro form {
+    margin: 10px 0 0 100px;
+  }
+
+  .form h1 {
+    font-size: 16pt;
+    margin: 80px 0 0 180px;
+  }
+
+  .form form span {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .form form span:last-child {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+
+  .form input {
+    padding-top: 34px;
+    width: 222px;
+    color: #707070;
+    font-size: 14pt;
+  }
+
+  .form button {
+    box-shadow: 0 2px 3px #707070;
+    height: 29px;
+    width: 222px;
+    font-size: 20px;
+    margin-top: 34px;
+    margin-bottom: 5px;
+  }
 }

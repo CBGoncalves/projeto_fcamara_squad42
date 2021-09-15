@@ -1,0 +1,102 @@
+.popupContainer {
+  height: 100vh;
+  background: #27272780;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.popup {
+  width: 790px;
+  height: 550px;
+  margin-top: 50px;
+  background: #121b2d;
+  border-radius: 21px;
+  box-shadow: 0 10px 10px #00000029;
+  position: relative;
+  justify-content: center;
+}
+
+.fechar {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  top: 30px;
+  right: 30px;
+  position: absolute;
+  background: #fe4400;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.realizado,
+.naoRealizado {
+  width: 591px;
+  height: 120px;
+  margin: 100px 0 200px 50px;
+  background-color: #e0e0ef;
+  border-radius: 21px;
+  box-shadow: 0 10px 10px #00000029;
+  display: none;
+}
+
+.realizado.ativo,
+.naoRealizado.ativo {
+  display: flex;
+}
+
+.realizado p,
+.realizado span,
+.naoRealizado span,
+.naoRealizado p {
+  color: #36357e;
+  font-size: 25px;
+  margin: 30px 40px 0 0;
+}
+
+.triste,
+.feliz {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.atalhoAgendamentos {
+  color: #fe4400;
+  margin-left: 300px;
+}
+
+@media (max-width: 428px) {
+  .popup {
+    width: 396px;
+    height: 450px;
+    margin-top: 120px;
+  }
+
+  .realizado,
+  .naoRealizado {
+    width: 359px;
+    margin: 100px 20px;
+  }
+
+  .realizado p,
+  .realizado span,
+  .naoRealizado span,
+  .naoRealizado p {
+    font-size: 15pt;
+    margin: 30px 10px 0 20px;
+  }
+
+  .triste,
+  .feliz {
+    width: 50px;
+    height: 50px;
+  }
+
+  .atalhoAgendamentos {
+    margin-left: 120px;
+  }
+}
