@@ -24,7 +24,7 @@ img {
   height: 33px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 428px) {
   .navbar {
     height: 178px;
   }
