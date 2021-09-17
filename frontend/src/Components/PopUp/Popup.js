@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Popup.css';
-import Triste from '../../imagens/Triste.png';
-import Feliz from '../../imagens/Feliz.png';
+import Triste from '../../imagens/Triste.svg';
+import Feliz from '../../imagens/Feliz.svg';
 
 
 const Popup = () => {

@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Login from './Pages/Login';
 import CadastroUsuario from './Pages/CadastroUsuario';
-import Agendar from './Pages/Agendar/Agendar';
+import Agendar from './Pages/Agendar';
 import MeusAgendamentos from './Pages/MeusAgendamentos';
 import Popup from './Components/PopUp/Popup';
 

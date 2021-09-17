@@ -60,12 +60,12 @@
   .form button {
     background-color: #fe4400;
     border: none;
-    border-radius: 21px;
+    border-radius: 15px;
     box-shadow: 0 3px 6px #707070;
     height: 53px;
-    width: 409px;
+    width: 209px;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 70px;
     margin-bottom: 5px;
   }

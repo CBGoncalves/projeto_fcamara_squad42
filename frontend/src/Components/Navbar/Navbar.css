@@ -3,63 +3,23 @@
   width: 100%;
   height: 75px;
   align-items: center;
+  justify-content: center;
   background-color: #121b2d;
 }
 
-.navbar span,
-img {
-  padding-right: 40px;
+.options {
+  display: flex;
+  justify-content: center
+}
+
+.navbar span{
+  padding-right: 50px;
 }
 
 .logoNavbar {
-  width: 115px;
-  height: 115px;
-  padding-right: 550px;
-  padding-left: 400px;
+  padding-right: 100px;
+  padding-left: 20px;
+  width: 250px;
 }
 
-.logout,
-.perfil {
-  width: 40px;
-  height: 33px;
-}
 
-@media (max-width: 428px) {
-  .navbar {
-    height: 178px;
-  }
-
-  .agendarMob,
-  .meusAgendamentosMob {
-    align-self: flex-end;
-    margin-bottom: 15px;
-  }
-
-  .agendarMob {
-    margin-right: 110px;
-    margin-left: 40px;
-  }
-
-  .perfilMob {
-    margin-right: 20px;
-    margin-left: -105px;
-  }
-
-  .navbar span,
-  img {
-    padding-right: 0;
-  }
-
-  .logoNavbar {
-    width: 56px;
-    height: 52px;
-    padding: 5px 0 0 15px;
-    align-self: flex-start;
-  }
-
-  .logout,
-  .perfil {
-    width: 40px;
-    height: 33px;
-  }
-}

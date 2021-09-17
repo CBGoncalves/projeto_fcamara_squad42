@@ -1,6 +1,6 @@
 html,
+
 body {
-  height: 100vh;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(#070b11, #121b2d);
@@ -22,6 +22,7 @@ input,
 option,
 select,
 label {
+
   font-family: "Chakra Petch", sans-serif;
   color: #e0e0ef;
   margin: 0;
