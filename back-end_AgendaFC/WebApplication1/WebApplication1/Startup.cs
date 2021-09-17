@@ -23,11 +23,23 @@ namespace WebApplication1
 
         public IConfiguration Configuration { get; }
 
+        readonly string MyAllowSpecificOrigins = "react.front";
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
             services.AddControllers();
+
+            // cors configuration
+            services
+               .AddCors(options =>
+               {
+                   options.AddPolicy(name: MyAllowSpecificOrigins, builder =>
+                   {
+                       builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                   });
+               });
 
             services.AddSwaggerGen(c =>
             {
@@ -51,6 +63,9 @@ namespace WebApplication1
             app.UseRouting();
 
             app.UseAuthentication();
+
+            // cors
+            app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseAuthorization();
 
