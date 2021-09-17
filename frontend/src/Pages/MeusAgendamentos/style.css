@@ -1,0 +1,155 @@
+.agendamentos {
+  flex-direction: column;
+}
+
+.agendamentos h1 {
+  margin-top: 100px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.agendamentosQuadro {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 995px;
+  height: 484px;
+  background-color: #e0e0ef;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px #00000029;
+}
+
+.notificacao {
+  margin-left: -520px;
+}
+
+.agendamentos button {
+  background-color: #fe4400;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px #00000087;
+  height: 50px;
+  width: 300px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 60px 0 100px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 428px) {
+  .agendamentos h1 {
+    margin-top: 70px;
+    font-size: 16pt;
+  }
+
+  .agendamentosQuadro {
+    margin-top: 30px;
+    width: 396px;
+    height: 426px;
+  }
+
+  .notificacao {
+    display: none;
+  }
+
+  .agendamentos button {
+    height: 29px;
+    width: 397px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+
+.marginAgendamentos {
+  margin: 3vw;
+}
+
+.DeletarAgendamento{
+display: flex;
+border-radius: 3.5px;
+padding: 5px;
+}
+
+
+
+.DeletarAgendamento>p{
+  color: #e0e0ef;
+}
+
+.agendamentoBox {
+  background: #e0e0ef;
+  padding: 3vh;
+  display: flex;
+  margin-bottom: 5vh;
+  justify-content: space-between;
+  border-radius: 2vh;
+  
+}
+
+.agendamentoBox p {
+  font-size: 1.1vw;
+  color: black;
+}
+
+
+.agendamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.agendamento img {
+  width: 50px;
+}
+
+.agendamento h4 {
+  margin-top: 1vh;
+  font-size: 1.5vw;
+}
+
+.agendamento p {
+  font-size: 1vw;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info p {
+  margin: 3px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Delete {
+  display: flex;
+  margin-left: 3vh;
+  justify-content: flex-end;
+}
+
+
+.preto body > div.marginBanidos > div > h5{
+  color: black !important;
+}
+
+.preto body > div.marginBanidos > div > h5{
+  color: white !important;
+}
+
+.preto .corpo{
+  background: black !important;
+}
+
+.agendarButton {
+  margin: 100px;
+}
+
+

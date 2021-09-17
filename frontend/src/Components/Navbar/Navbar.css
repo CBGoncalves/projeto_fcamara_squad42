@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  background-color: #121b2d;
+}
+
+.options {
+  display: flex;
+  justify-content: center
+}
+
+.navbar span{
+  padding-right: 50px;
+}
+
+.logoNavbar {
+  padding-right: 100px;
+  padding-left: 20px;
+  width: 250px;
+}
+
+

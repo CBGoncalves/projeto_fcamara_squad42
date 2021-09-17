@@ -1,0 +1,92 @@
+.agendar {
+  flex-direction: column;
+}
+
+.agendar h1 {
+  margin-top: 80px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.agendar h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.agendarForm {
+  display: flex;
+}
+
+.agendarForm > div {
+  margin: 100px 100px 0px 100px;
+}
+
+.agendarForm select,
+.agendarForm option,
+.agendarForm input {
+  width: 306px;
+  height: 55px;
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #484d55;
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.agendar button {
+  background-color: #fe4400;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px #00000087;
+  height: 50px;
+  width: 300px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 60px 0 100px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 428px) {
+  .agendar h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 16pt;
+  }
+
+  .agendar h2 {
+    font-size: 18pt;
+    font-weight: 100;
+  }
+
+  .agendarForm {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .agendarForm > div {
+    margin: 40px 0 0 0;
+    align-self: center;
+  }
+
+  .agendarForm select,
+  .agendarForm option,
+  .agendarForm input {
+    width: 222px;
+    height: 35px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .agendar button {
+    height: 29px;
+    width: 190px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 50px auto auto 15px;
+  }
+}

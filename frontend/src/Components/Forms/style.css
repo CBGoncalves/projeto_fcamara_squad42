@@ -1,0 +1,36 @@
+.form-texto p {
+    text-align: center;
+    font-size: 30px;
+    width: 383px;
+    height: 144px;
+}
+  
+.form-texto span {
+    color: #fe4400;
+}
+
+.cadeira {
+    width: 314px;
+    height: 314px;
+    padding-left: 40px;
+}
+
+
+@media (max-width: 428px) {
+    .form-texto p {
+        font-size: 20px;
+        width: 383px;
+        height: 76px;
+        position: absolute;
+        z-index: 100;
+        margin-top: 73px;
+    }
+
+    .cadeira {
+        width: 600px;
+        height: 785px;
+        position: relative;
+        margin-left: -300px;
+    }
+
+}

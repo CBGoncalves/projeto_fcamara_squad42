@@ -1,0 +1,39 @@
+html,
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#070b11, #121b2d);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+p,
+span,
+h1,
+h2,
+button,
+input,
+option,
+select,
+label {
+
+  font-family: "Chakra Petch", sans-serif;
+  color: #e0e0ef;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
